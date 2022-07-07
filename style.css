@@ -1,0 +1,56 @@
+html,body,header,div,img,h2,ul,li,h3,p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0px 0px 4px 3px rgb(0 0 0 / 10%);
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho_menu .botao{
+    padding: 5px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.menu_botaoesq{
+    background-color: #0a99fe;
+    color: #e7f5ff;
+}
+
+.menu_botaodir{
+    background-color: #e7f5ff;
+    color: #0a99fe;
+}
+
+ul{
+    display: flex;
+}
